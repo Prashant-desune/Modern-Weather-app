@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-  --primary-color: #5598fd;
+  --primary-color: #6d91c8;
 }
 
 * {
@@ -22,6 +22,7 @@ body {
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
+  
 }
 img {
   width: 100%;
@@ -194,6 +195,13 @@ img {
 .main nav .units button.active {
   color: #fff;
   background-color: #1a1a1a;
+}
+
+.main nav .units button.ports {
+  color: #fff;
+  background-color: #1a1a1a;
+  background-size: cover;
+  overflow: hidden;
 }
 .main .cards {
   display: flex;
